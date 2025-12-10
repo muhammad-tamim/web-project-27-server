@@ -11,7 +11,7 @@ app.use(express.json())
 
 initDB()
 
-app.use("/recipe", recipeRoutes)
+app.use("/api/v1/recipe", recipeRoutes)
 
 app.get('/', (req, res) => {
     res.send('Hello World!')
