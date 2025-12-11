@@ -2,7 +2,7 @@ import dotenv from "dotenv"
 
 dotenv.config()
 
-const config = {
+const environment = {
     mongodb_uri: process.env.MONGODB_URI,
     port: process.env.PORT,
     database_name: process.env.DB_NAME
@@ -10,4 +10,4 @@ const config = {
 
 }
 
-export default config
+export default environment
