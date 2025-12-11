@@ -1,5 +1,5 @@
 import { MongoClient, ServerApiVersion } from "mongodb";
-import config from "./environment.js";
+import config from "./env.js";
 
 const client = new MongoClient(config.mongodb_uri!, {
     serverApi: {
