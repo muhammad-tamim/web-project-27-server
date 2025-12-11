@@ -2,8 +2,6 @@
  
 This is a Recipe Sharing Platform backend where users can add & manage their recipes, discover recipes from others, and like recipes. 
 
-## Live Links:
-
 ## Tech Stack:
 - Node.js, Express, MongoDB, Zod, TypeScript, Dotenv, Cors
   
@@ -90,7 +88,14 @@ src/
     server.ts -- Entry point
 ```
 
+
 ## API Documentation:
+
+### Live Api URL:
+
+```
+https://web-project-27-server.vercel.app/
+```
 
 ### Base URL: 
 
@@ -270,7 +275,7 @@ npm install
 
 3. Create a .env File with: 
 
-```env
+```
 MONGODB_URI=Your MongoDB URI
 PORT= Your Port
 DB_NAME = RecipeBookDB
